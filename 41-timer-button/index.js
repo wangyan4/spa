@@ -9,7 +9,7 @@ var $timerButton = (function(){
   function show(conf){
     // 1.DOM draw
     $.extend(cfg,conf);
-    $(cfg.container).append($btn);
+    $btn.appendTo($(cfg.container));
     
     // 2.event bind
     if(cfg.disable){

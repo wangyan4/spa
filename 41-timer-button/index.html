@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <label action="">
+  <form action="">
     是否启用：
     <label for="enabled"><input id="enabled" name="able" type="radio"> 启用</label> 
     <label for="unabled"><input id="unabled" name="able" type="radio"> 禁用</label><br>
@@ -45,8 +45,10 @@
       opt.onClick=function(){
         console.log('点击了按钮');
       }
+      // $timerButton.show(opt);
       $btnAdd.click(function(){
         $timerButton.show(opt);
+
       })
     })
   </script>
