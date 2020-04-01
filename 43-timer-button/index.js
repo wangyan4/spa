@@ -1,5 +1,5 @@
+define(['jquery']),function($){
 var $timerButton = (function(){
-  
   function show(conf){
     var cfg={
       num:10,
@@ -40,7 +40,7 @@ var $timerButton = (function(){
     show:show
   })
 })();
-
+}
 
 function TimerButton(){
   this.show=function(conf){
